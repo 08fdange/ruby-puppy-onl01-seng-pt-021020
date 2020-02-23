@@ -1,6 +1,5 @@
 class Dog 
   @@all = []
-  @@all_names = []
   
   attr_reader :name
   
@@ -22,7 +21,6 @@ class Dog
   end
   
   def self.print_all
-    puts @@all_names.uniq
   end
   
 
