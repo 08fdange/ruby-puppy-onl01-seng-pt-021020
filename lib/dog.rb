@@ -7,7 +7,6 @@ class Dog
     @name = name
     def save
       @@all << self
-      @@all_names << @name
     end
     self.save
   end
